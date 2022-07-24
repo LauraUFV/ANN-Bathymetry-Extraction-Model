@@ -1,6 +1,7 @@
 # ANN-Bathymetry-Extraction-Model
 
 #At first the program should read the .txt file with the points that is going to be trainned and the other one that is going to be use to make the prediction. In this example is used the file with the sections spaced 500 meters.
+#PS:The user should creat a project and put the  txt files that are available in the same file as the project
 
 train<-read.table("./train500.txt", sep = ";", header = TRUE)
 prediction<-read.table("./pred.txt", sep = ";", header = TRUE)
